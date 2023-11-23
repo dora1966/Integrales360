@@ -219,6 +219,11 @@ h4{
     width: 200px;
     }
 
+      #varios .image-container img{
+        width: 30%;
+        height: 100px;
+      }
+    
 
 footer{
     display: flex;
@@ -321,7 +326,7 @@ footer div.redes a {
     #encabezado ul{
         position: fixed;
         width: 50%;
-        height: 100%;
+        height: 20%;
         background: #2c3e50;
         top: 80px;
         left: 100%;
@@ -387,15 +392,15 @@ footer div.redes a {
 
 
     #trabajos .card-container{
-
         background-color: #eeeeee;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         font-size: 12px;
         padding-top: 3%;
         margin-left: 3%;
         margin-right: 3%;
-        align-items: center;
+        align-items: center; 
     }
     
     .image-container img{
@@ -422,6 +427,7 @@ footer div.redes a {
     font-size: 10px;
   }
 
+  
   footer div h3{
     display: flex;
     flex-direction: row;
@@ -503,6 +509,8 @@ footer .redes{
      }
      #nosotros{
         font-size: 100%;
+        /* margin-left: 6%;
+        margin-right: 6%; */
         align-items: center;
         min-width: auto;
      }
