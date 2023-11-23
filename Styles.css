@@ -101,11 +101,14 @@ color: #0a0a23;
     box-shadow: 2px 2px 8px 4px #2b2828d1;
     margin-bottom: 5em;
     padding-bottom: 2em;
+    padding-left: 1em;
 }
-#seccion-2 .lista{
+#seccion-2 .card .lista, .card .lista span{
 font-style: italic;
-
-   
+padding-left: 1em;
+padding-right: 1em;
+font-size: small;
+  
 }
 #seccion-2 img{
   box-shadow: 2px 2px 10px 4px #2b2828d1;  
@@ -121,6 +124,27 @@ img{
     overflow: clip;
 }
 
+#nosotros{
+    border: 1px black solid;
+    background-color:bisque;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-shadow: 2px 2px 8px 4px #2b2828d1;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+#nosotros button{
+    background-color: brown;
+    color: white;
+    margin-left: 40em;
+    height: 35px;
+    width: 160px;
+}
 #trabajos{
     padding-top: 15px;
     /* box-shadow: 2px 2px 8px 4px #2b2828d1; */
@@ -159,7 +183,7 @@ h4{
     border-radius: 5%;
     padding: 5px;
     height: 400px;
-    max-width: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
