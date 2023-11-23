@@ -1,0 +1,408 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+/* le cambio color al elemento i, le cambio de tamaño y espacio a la izq.*/
+header .fuente-acento {
+    color: rgb(197, 173, 173);
+    font-size: 1.8em;
+    padding: 0.8em;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+/* le doy distancia a los li para que no se amontonen */
+header nav ul{
+    display: flex;
+    gap: 2em;
+    padding-right: 20px;
+  
+}
+/* le cambio color a los links a */
+header nav ul li a{
+    color: white;
+    
+
+}
+
+header a img{
+    display: flex;
+    object-fit: contain;
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    border:#0a0a23 solid 2px;
+}
+
+
+.seccion-1{
+    background-color: #eeeeee;
+    display: flex;
+    padding: 2em 10em 2em 10em;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.acerca-de{
+       
+    padding-right: 5em;
+    font-family: sans-serif;
+    text-align: right;
+    margin-left: 5em;
+
+
+}
+.acerca-de p{
+font-size: 20px;
+color: #0a0a23;
+}
+
+.acerca-de h2{
+       
+    padding-right: 1em;
+    font-family: sans-serif;
+    text-align: right;
+    margin-left: 1em;
+    font-weight: lighter;
+    color: grey;
+
+
+}
+.acerca-imgen img{
+    width: 20rem;
+    height: 15rem;
+    
+}
+
+#seccion-2{
+    display: flex;
+    box-shadow: 2px 2px 8px 4px #2b2828d1;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+}
+#seccion-2 .lista{
+font-style: italic;
+
+   
+}
+#seccion-2 img{
+  box-shadow: 2px 2px 10px 4px #2b2828d1;  
+  width: 60%;
+  min-height: 40%;
+  margin-top: 0.5em;
+  margin-left: 4em;
+  justify-content:center;
+  border-radius: 24px;
+  }
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#trabajos{
+    padding-top: 15px;
+    /* box-shadow: 2px 2px 8px 4px #2b2828d1; */
+}
+       
+h4{
+    
+   color: rgb(17, 17, 17);
+   display: flex;
+   justify-content:center ;
+   font-size: 25px;
+   font-weight: bolder;
+   border: 1px solid rgb(17, 17, 17);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: rgb(235, 216, 216);
+   margin-left: 20%;
+   margin-right: 25%;
+   box-shadow: 2px 2px 8px 4px #2b2828d1;
+   padding: 1em 0em ;
+   border-radius: 30%;
+   }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    margin: 5px;
+    width: 95%;
+    display:flex;
+    justify-content: center;
+}
+.card{
+    border: 4px solid grey;
+    border-radius: 5%;
+    padding: 5px;
+    height: 400px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2em;
+
+}
+
+.card div p{
+    text-align: center;
+}
+.image-container img{
+    border: 8px;
+    border-radius: 5%;
+    width: 80%;
+    text-align: center;
+    width: 200px;
+    }
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 3em;
+    padding-left: 3em;
+    font-size: small;
+}
+
+.redes h3 a{
+    color: white;
+}
+
+footer div h3{
+    margin-bottom: 5px;
+}
+
+.redes h3 a img{
+    display: flex;
+    gap: 3em;
+    font-size: 3em;
+
+}
+
+.contacto img{
+    background-color: white;
+}
+
+.contacto h3{
+    margin-bottom: 5px;
+}
+
+.contacto p{
+    font-size: 15px ;
+    padding-right: 20px;
+}
+
+footer {
+flex-wrap: wrap ;
+padding-left: 0.5em;
+padding-right: 0.5em;
+padding-top: 1.2em;
+padding-bottom: 1.2em;
+}
+
+footer div.redes a {
+    color: white;
+}
+
+
+
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float:inline-end;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+} 
+
+   /*MEDIAS QUERIES*/
+ @media (max-width:768px) {
+    header{
+        background-color: burlywood;
+    }
+    .acerca-de{
+        text-align: center;
+
+    }
+    .acerca-imagen {
+        margin-bottom: 40px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #encabezado ul{
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        background: #2c3e50;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    #check:checked ~ ul{
+        left: 0%;
+        display: block;
+    }
+
+    #encabezado nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #encabezado nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ .checkbtn{
+        color:  #2c3e50;
+    }
+    #encabezado .fuente-acento{
+        color:chocolate;
+    }
+
+    .seccion-1{
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+              
+    }
+    .image-container img{
+        border: 8px;
+        border-radius: 5%;
+        width: 100%;
+     }
+  
+    .card{
+        border: 4px solid rgb(185, 9, 9);
+        border-radius: 5%;
+        padding: 5px;
+        height: 85%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+       
+}
+.card div{
+    font-size: 10px;
+  }
+
+}
+@media (min-width: 769px ) and (max-width:1020px) {
+    header{
+        background-color:darkolivegreen
+    }
+    .acerca-de{
+        text-align: center;
+
+    }
+    .acerca-imagen {
+        margin-bottom: 40px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #encabezado ul{
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        background: #2c3e58;
+        top: 77px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    #check:checked ~ ul{
+        left: 0%;
+        display: block;
+    }
+
+    #encabezado nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #encabezado nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ .checkbtn{
+        color:  #2c3e50;
+    }
+    #encabezado .fuente-acento{
+        color:rgb(8, 7, 6);
+    }
+
+    .seccion-1{
+        background-color: #cabbbb;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+              
+    }
+    .image-container img{
+        border: 8px;
+        border-radius: 5%;
+      
+         }
+  
+    .card {
+        border: 4px solid rgb(21, 9, 185);
+        border-radius: 5%;
+        padding: 5px;
+        height: 85%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .card div{
+        font-size: 12px;
+      }
+
+}
