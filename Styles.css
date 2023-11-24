@@ -174,16 +174,21 @@ img{
        
 #trabajos h4{
    color: rgb(17, 17, 17);
-    text-align: center;
    font-weight: bolder;
    border: 1px solid rgb(17, 17, 17);
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family: sans-serif;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtA4GsljUS912HkpWTU-2c5_b2LfLsdvAoJA&usqp=CAU);
+   background-repeat: no-repeat;
+   filter: brightness(100%);
    background-color: rgb(235, 216, 216);
    margin-left: 20%;
    margin-right: 25%;
    box-shadow: 2px 2px 8px 4px #2b2828d1;
-   padding: 1em 0em ;
+   padding-left: 25em ;
+   padding-top: 1em;
+   padding-bottom: 1em;
    border-radius: 30%;
+   align-content: left;
    }
 
 .container{
