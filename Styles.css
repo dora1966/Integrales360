@@ -147,10 +147,9 @@ img{
     align-items: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9imY7TrkXNsBUlsNxxh4Ep3sb20QWq-1n0Q&usqp=CAU);
     background-repeat: no-repeat;
-    filter: brightness(140%);
-    /* background-attachment: fixed; */
+    filter: brightness(100%);
     background-size: 100% 100%;
-    opacity: "00";
+    /* opacity: "00"; */
     width: 80%;
     
 }
@@ -170,15 +169,12 @@ img{
 
 #trabajos{
     padding-top: 15px;
-    /* box-shadow: 2px 2px 8px 4px #2b2828d1; */
+    box-shadow: 2px 2px 8px 4px #2b2828d1;
 }
        
-h4{
-    
+#trabajos h4{
    color: rgb(17, 17, 17);
-   display: flex;
-   justify-content:center ;
-   font-size: 25px;
+    text-align: center;
    font-weight: bolder;
    border: 1px solid rgb(17, 17, 17);
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -226,10 +222,9 @@ h4{
     width: 200px;
     }
 
-      #varios .image-container img{
-        width: 30%;
+#varios .image-container img{
+        width: 100%;
         height: 130px;
-        padding-left: 6px;
       }
     
 
@@ -395,8 +390,6 @@ footer div.redes a {
         /* margin-left: 6%;
         margin-right: 6%; */
         align-items: center;
-        width: auto;
-        font-size: 40%;
        
      }
 
@@ -421,6 +414,9 @@ footer div.redes a {
         text-align: center;
      }
 
+
+     
+     
      
     .card{
         border: 4px solid rgb(185, 9, 9);
@@ -505,40 +501,27 @@ footer .redes{
         justify-content: center;
         align-items: center;
     }
-    .seccion-2{
-        width: 100vw;
-        height: 100vh;
-
-    }       
-    .seccion-2 .card-container .card{
        
+    .seccion-2 .card-container{
+        background-color: #eeeeee;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         font-size: 12px;
         padding: 3% 6% ;
         align-items: center;
-        align-content: center ;
-        text-align: center;
-               
-     }
-
-     .seccion-2 .card-container .image-container{
-        width: 100%;
-        height: 100%;
-     }
-
-     #nosotros{
-        display: flex;
-        padding: 3% 6% ;
-        align-items: center;
         min-width: auto;
         align-content: center ;
         text-align: center;
      }
-     #trabajos .h4{
-        font-size: 40%;
+     #nosotros{
+        font-size: 100%;
+        /* margin-left: 6%;
+        margin-right: 6%; */
+        align-items: center;
+        min-width: auto;
      }
+
 
     #trabajos .card-container{
 
@@ -560,6 +543,9 @@ footer .redes{
         text-align: center;
      }
 
+
+         
+     
          
     .card{
         border: 4px solid rgb(185, 9, 9);
