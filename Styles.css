@@ -180,7 +180,7 @@ img{
    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtA4GsljUS912HkpWTU-2c5_b2LfLsdvAoJA&usqp=CAU);
    background-repeat: no-repeat;
    filter: brightness(100%);
-   background-color: rgb(235, 216, 216);
+   /* background-color: rgb(235, 216, 216); */
    margin-left: 20%;
    margin-right: 25%;
    box-shadow: 2px 2px 8px 4px #2b2828d1;
