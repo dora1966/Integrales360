@@ -136,9 +136,9 @@ img{
     flex-direction: column;
     border: 1px black solid;
     margin-right: 2em;
-    margin-left: 5em;
-    padding-left: 3em;
-    padding-right: 3em;
+    margin-left: 1.6em;
+    padding-left: 3.2em;
+    padding-right: 6em;
     padding-top: 2em;
     padding-bottom: 2em;
     box-shadow: 2px 2px 8px 4px #2b2828d1;
@@ -150,7 +150,7 @@ img{
     filter: brightness(100%);
     background-size: 100% 100%;
     /* opacity: "00"; */
-    width: 80%;
+    /* width: 100%; */
     
 }
 #nosotros h3{
@@ -385,11 +385,14 @@ footer div.redes a {
         /* align-content: center ; */
         text-align: center;
      }
-     #nosotros{
+
+     #nosotros {
         font-size: 100%;
         /* margin-left: 6%;
         margin-right: 6%; */
         align-items: center;
+        width: 40%;
+        margin-left: 0%;
        
      }
 
