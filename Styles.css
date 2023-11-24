@@ -536,7 +536,9 @@ footer .redes{
         align-content: center ;
         text-align: center;
      }
-
+     #trabajos .h4{
+        font-size: 40%;
+     }
 
     #trabajos .card-container{
 
