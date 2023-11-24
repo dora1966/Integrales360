@@ -135,17 +135,24 @@ img{
     display: flex;
     flex-direction: column;
     border: 1px black solid;
-    background-color:rgb(235, 216, 216);
     margin-right: 2em;
-    margin-left: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
+    margin-left: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-top: 2em;
     padding-bottom: 2em;
     box-shadow: 2px 2px 8px 4px #2b2828d1;
     font-weight: bold;
     font-family: fantasy;
     align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9imY7TrkXNsBUlsNxxh4Ep3sb20QWq-1n0Q&usqp=CAU);
+    background-repeat: no-repeat;
+    filter: brightness(140%);
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    opacity: "00";
+    width: 80%;
+    
 }
 #nosotros h3{
     margin-bottom: 0.8em;
@@ -221,7 +228,8 @@ h4{
 
       #varios .image-container img{
         width: 30%;
-        height: 100px;
+        height: 130px;
+        padding-left: 6px;
       }
     
 
@@ -387,6 +395,7 @@ footer div.redes a {
         /* margin-left: 6%;
         margin-right: 6%; */
         align-items: center;
+        width: auto;
        
      }
 
@@ -395,7 +404,7 @@ footer div.redes a {
         background-color: #eeeeee;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         font-size: 12px;
         padding-top: 3%;
         margin-left: 3%;
@@ -410,6 +419,7 @@ footer div.redes a {
         height: 90%;
         text-align: center;
      }
+
      
     .card{
         border: 4px solid rgb(185, 9, 9);
@@ -494,25 +504,36 @@ footer .redes{
         justify-content: center;
         align-items: center;
     }
+    .seccion-2{
+        width: 100vw;
+        height: 100vh;
+
+    }       
+    .seccion-2 .card-container .card{
        
-    .seccion-2 .card-container{
-        background-color: #eeeeee;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         font-size: 12px;
         padding: 3% 6% ;
         align-items: center;
+        align-content: center ;
+        text-align: center;
+               
+     }
+
+     .seccion-2 .card-container .image-container{
+        width: 100%;
+        height: 100%;
+     }
+
+     #nosotros{
+        display: flex;
+        padding: 3% 6% ;
+        align-items: center;
         min-width: auto;
         align-content: center ;
         text-align: center;
-     }
-     #nosotros{
-        font-size: 100%;
-        /* margin-left: 6%;
-        margin-right: 6%; */
-        align-items: center;
-        min-width: auto;
      }
 
 
@@ -535,7 +556,8 @@ footer .redes{
         height: 90%;
         text-align: center;
      }
-     
+
+         
     .card{
         border: 4px solid rgb(185, 9, 9);
         border-radius: 5%;
